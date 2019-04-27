@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<TextView
+		android:text="Nombre"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView2"
+		android:paddingLeft="160dp"
+		android:textColor="#ff000000"
+		android:textSize="20dp" />
+	<EditText
+			android:hint ="Ingrese su nombre"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/edtNombre"/>
+	<TextView
+		android:text="Edad"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView3"
+		android:paddingLeft="170dp"
+		android:textColor="#ff000000"
+		android:textSize="20dp" />
+		<EditText
+			android:hint ="Ingrese su Edad"
+			android:inputType="number"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/edtEdad"
+			android:layout_marginTop="25px" />
+	<TextView
+		android:text="Ocupacion"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView4"
+		android:paddingLeft="150dp"
+		android:textColor="#ff000000"
+		android:textSize="20dp" />
+		<EditText
+			android:hint ="Ingrese su ocupación"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/edtOcupacion"
+			android:layout_marginTop="25px" />
+		<LinearLayout
+			android:orientation="horizontal"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/linearLayout2"
+			android:layout_marginBottom="1.5dp"
+			android:layout_marginTop="30px">
+			<TextView
+				android:text="Sexo:"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/textView1"
+				android:paddingTop="10px"
+				android:paddingLeft="20px"
+				android:paddingRight="20px"
+				android:layout_marginRight="50px"
+				android:layout_marginLeft="50px" />
+			<CheckBox
+				android:text="Masculino"
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/chbMasculino"
+				android:layout_marginRight="75px" />
+			<CheckBox
+				android:layout_width="wrap_content"
+				android:layout_height="match_parent"
+				android:id="@+id/chbFemenino"
+				android:text="Femenino" />
+		</LinearLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/linearLayout3"
+		android:layout_marginBottom="7.0dp"
+		android:paddingLeft="25dp"
+		android:layout_marginTop="80dp">
+		<Button
+			android:text="Actualizar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnActualizarRegistro"
+			android:layout_marginRight="30px"
+			android:width="320px"
+			android:minWidth="320px"
+			android:maxWidth="320px"
+			android:height="120px"
+			android:maxHeight="120px"
+			android:minHeight="120px"
+			android:elegantTextHeight="true" />
+		<Button
+			android:text="Eliminar"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnEliminarRegistro"
+			android:layout_marginRight="30px"
+			android:maxWidth="320px"
+			android:minWidth="320px"
+			android:width="320px"
+			android:height="120px"
+			android:maxHeight="120px"
+			android:minHeight="120px" />
+	</LinearLayout>
+</LinearLayout>

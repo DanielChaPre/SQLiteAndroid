@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<LinearLayout
+		android:orientation="vertical"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/linearLayout1">
+		<TextView
+			android:text="Personas"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:id="@+id/textView1"
+			android:textColor="#ff000000"
+			android:textSize="25dp"
+			android:paddingLeft="145dp" />
+		<ListView
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="match_parent"
+			android:layout_height="400dp"
+			android:id="@+id/listView1" />
+		<Button
+			android:text="Registrar"
+			android:layout_width="201.5dp"
+			android:layout_height="wrap_content"
+			android:id="@+id/btnIrRegistro"
+			android:layout_marginTop="22dp"
+			android:layout_marginRight="91.0dp"
+			android:layout_marginLeft="90dp"
+			android:layout_marginBottom="22dp"
+			android:textStyle="normal"
+			android:height="150px"
+			android:maxHeight="150px"
+			android:minHeight="150px" />
+	</LinearLayout>
+</RelativeLayout>

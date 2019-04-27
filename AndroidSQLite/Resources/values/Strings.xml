@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">AndroidSQLite</string>
+    <string name="action_settings">Settings</string>
+</resources>
